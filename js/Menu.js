@@ -1,9 +1,11 @@
 /*
-    Menu for your website/webapp/mobileapp.
+    Menu
 */
 class Menu{
-    show(menuId){
-        let menu = document.querySelector("#"+menuId);
-        menu.classList.toggle('menu-side-hide');
+    constructor(menuId){
+        this._menu = document.querySelector("#"+menuId);
+    }
+    toggle(){
+        this._menu.classList.toggle('menu-side-hide');
     }
 }

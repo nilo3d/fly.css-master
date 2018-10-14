@@ -1,1 +1,1 @@
-let menu = new Menu();
+let menu = new Menu('fly-global-menu');
