@@ -1,0 +1,45 @@
+*{
+	padding:0;
+	margin:0;
+	outline: none;
+	font-family: sans-serif;
+}
+html, body{
+	width:100%;
+	height:100%;
+}
+.container{
+	width:90%;
+	max-width:2500px;
+	margin:0 auto;
+}
+.centralize{
+	text-align:center;
+}
+.responsive-image{
+    width:100%;
+}
+.btn-accept{
+    background:linear-gradient(#5697ff, #1d62d1);
+    padding:5px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    width:5em;
+}
+.btn-reject{
+    background:linear-gradient(#f14747, #830505);
+    padding:5px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    width:5em;
+}
+.btn-alert{
+    background:linear-gradient(#f7d461, #ebb729);
+    padding:5px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    width:5em;
+}
