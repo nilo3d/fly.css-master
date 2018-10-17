@@ -6,7 +6,7 @@ class Menu{
         this._menu = document.querySelector("#"+menuId);
     }
     toggle(){
-        this._menu.classList.toggle('menu-side-hide');
+        this._menu.classList.toggle('menu-side-show');
     }
 }
 menu = new Menu('fly-global-menu');
