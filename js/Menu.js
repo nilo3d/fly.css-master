@@ -9,3 +9,4 @@ class Menu{
         this._menu.classList.toggle('menu-side-hide');
     }
 }
+menu = new Menu('fly-global-menu');

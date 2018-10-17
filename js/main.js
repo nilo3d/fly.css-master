@@ -1,1 +1,0 @@
-let menu = new Menu('fly-global-menu');
