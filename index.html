@@ -5,14 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <p>Eitcha porra</p>
-        <button onclick="menu.toggle()" style="position:fixed;right:0;">Menu</button>
-        <div class='menu-side' id='fly-global-menu'>
+        <nav class="menu-top">
+            <p>fly.css</p>
+            <a onclick="menu.toggle()">MENU</a>
+        </nav>
+        <p>Lorem dolor ipsum</p>
+        <nav class='menu-side' id='fly-global-menu'>
+            <p onclick="menu.toggle()" style="color:red;font-size:150%;padding:8px;">X</p>
             <a href="#">Home</a>
             <a href="#">Items</a>
             <a href="#">Peoples</a>
             <a href="#">Sports</a>
-        </div>
+        </nav>
         <script src='js/Menu.js'></script>
     </body>
 </html>
