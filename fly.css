@@ -50,7 +50,7 @@ html, body{
     height:100%;
     left:-84%;
     top:0;
-    transition:left 0.8s;
+    transition:left 0.6s;
     background-color:rgb(20, 20, 20);
     box-shadow:2px 0 15px black;
     z-index:2;
@@ -91,4 +91,21 @@ html, body{
     display:flex;
     justify-content:space-around;
     padding-top:10px;
+}
+.menu-top a{
+    color:gray;
+}
+.menu-top a:hover{
+    cursor:pointer;
+}
+.close-menu{
+    font-size:150%;
+    padding:8px;
+    cursor:pointer;
+    width:auto;
+    color:gray;
+}
+.close-menu:hover{
+    color:red;
+    transition:0.4s;
 }
