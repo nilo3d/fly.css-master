@@ -2,20 +2,38 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="fly.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <nav class="menu-top">
-            <p>fly.css</p>
-            <a onclick="menu.toggle()">MENU</a>
-        </nav>
+    <!-- Menu Content -->
         <nav class='menu-side' id='fly-global-menu'>
             <p onclick="menu.toggle()" class='close-menu'>X</p>
-            <a href="#">Home</a>
-            <a href="#">Items</a>
-            <a href="#">Peoples</a>
-            <a href="#">Sports</a>
+            <a onclick="menu.click_item(this)" id='home'>Home</a>
+            <a onclick="menu.click_item(this)" id='home'>Games</a>
+            <a href="https://www.linkedin.com/in/nilo-almeida-154528a3/" target="_blank">Linkedin</a>
+            <a href="https://www.facebook.com/nilopaivaalm">Facebook</a>
+            <a href="#">Blog</a>
         </nav>
+    <!-- End Menu Content -->  
+
+    <!-- Principal Content -->
+    	<section class='content'>
+    	
+        </section>
+    <!-- End Principal Content -->    
+
+    <!-- Menu Bar -->
+        <nav class="menu-bottom">
+            <p>Nilo Paiva</p>
+            <a onclick="menu.toggle()">
+            	<span id='t1'></span>
+            	<span id='t2'></span>
+            	<span id='t3'></span>
+            </a>
+        </nav>
+    <!-- End Menu Bar --> 
+       
         <script src='js/Menu.js'></script>
     </body>
 </html>
