@@ -20,7 +20,7 @@ class Menu{
 
     // Pega o conteudo da página especificada
     getContentPage(name){
-        $.get('../views/'+name+'.html', function(data){
+        $.get('./views/'+name+'.html', function(data){
             $(".content").html(data);
         });
     }
